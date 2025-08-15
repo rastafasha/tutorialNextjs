@@ -1,9 +1,10 @@
 import Link from "next/link";
-import "./Navbar.css"
+import "./Navbar.css";
+
 export default function Navbar(){
     return (
-        <nav className="navbar">
-        <h1>Nextjs Curso</h1>
+        <nav className="navbar py-5">
+       <Link href='/'> <h1 className="text-3xl font-bold">Nextjs Curso</h1></Link>
         <ul>
           <li>
             <Link href="/">Home</Link>

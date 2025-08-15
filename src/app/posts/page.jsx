@@ -13,7 +13,7 @@ async function PostPages(){
     return(
         <div className="grid">
             {
-                posts.map(post => (
+                posts.map((post) => (
                     <PostCard post={post} key={post.id}/>
                 ))
             }
